@@ -1,22 +1,12 @@
-body {
-  background: rgb(99, 74, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(99, 74, 255, 1) 0%,
-    rgba(131, 234, 241, 1) 100%
-  );
+.main-container {
+  /* background-color: black; */
+  display: flex;
   height: 100vh;
-}
-hr {
-  border-color: black;
-}
-.maintitle {
-  text-align: center;
-  color: black;
+  width: 100vw;
+  border: 1px solid black;
 }
 
-.sites > div {
-  display: flex;
-  margin: 10px;
-  padding: 20px;
+header {
+  background-image: url(../assets/images/biscii_2022.jpg);
+  border: 2px solid orange;
 }
